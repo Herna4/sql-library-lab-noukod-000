@@ -17,11 +17,11 @@ INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Sar
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Lurtz", "An Army Worthy of Mordor", "Uruk-hai", 1, 1);
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Shelob", "She likes to feed", "Giant Spider", 1, 1);
 
-INSERT INTO subgenres (name) VALUES ("Fantasy");
-INSERT INTO subgenres (name) VALUES ("Magic");
+INSERT INTO SubGenres (name) VALUES ("Wizardry");
+INSERT INTO SubGenres (name) VALUES ("Medieval Lore");
 
-INSERT INTO authors (name) VALUES ("J.R.R. Tolkien");
-INSERT INTO authors (name) VALUES ("J.K. Rowling");
+INSERT INTO Authors (name) VALUES ("J.K. Rowling");
+INSERT INTO Authors (name) VALUES ("J.R.R. Tolkien");
 
 INSERT INTO character_books (character_id, book_id) VALUES (1, 4);
 INSERT INTO character_books (character_id, book_id) VALUES (1, 5);
