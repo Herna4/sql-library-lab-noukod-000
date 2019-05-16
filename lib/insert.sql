@@ -1,12 +1,6 @@
 INSERT INTO series (title, author_id, subgenre_id) VALUES ("Lord of the Rings", 1, 1);
 INSERT INTO series (title, author_id, subgenre_id) VALUES ("Harry Potter", 2, 2);
 
-INSERT INTO subgenres (name) VALUES ("Fantasy");
-INSERT INTO subgenres (name) VALUES ("Magic");
-
-INSERT INTO authors (name) VALUES ("J.R.R. Tolkien");
-INSERT INTO authors (name) VALUES ("J.K. Rowling");
-
 INSERT INTO books (title, year, series_id) VALUES ("The Fellowship of the Ring", 1954, 1);
 INSERT INTO books (title, year, series_id) VALUES ("The Two Towers", 1954, 1);
 INSERT INTO books (title, year, series_id) VALUES ("The Return of the King", 1954, 1);
@@ -22,6 +16,12 @@ INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Fro
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Saruman", "The White Wizard", "Wizard", 1, 1);
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Lurtz", "An Army Worthy of Mordor", "Uruk-hai", 1, 1);
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Shelob", "She likes to feed", "Giant Spider", 1, 1);
+
+INSERT INTO subgenres (name) VALUES ("Fantasy");
+INSERT INTO subgenres (name) VALUES ("Magic");
+
+INSERT INTO authors (name) VALUES ("J.R.R. Tolkien");
+INSERT INTO authors (name) VALUES ("J.K. Rowling");
 
 INSERT INTO character_books (character_id, book_id) VALUES (1, 4);
 INSERT INTO character_books (character_id, book_id) VALUES (1, 5);
